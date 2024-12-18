@@ -7,7 +7,7 @@
 [![Latest Stable Version](http://img.shields.io/packagist/v/swoft/swoft.svg)](https://packagist.org/packages/swoft-fork/swoft)
 [![Build Status](https://travis-ci.org/swoft-cloud/swoft.svg?branch=master)](https://travis-ci.org/swoft-cloud/swoft)
 [![Docker Build Status](https://img.shields.io/docker/build/swoft/swoft.svg)](https://hub.docker.com/r/swoft/swoft/)
-[![Php Version](https://img.shields.io/badge/php-%3E=7.1-brightgreen.svg?maxAge=2592000)](https://secure.php.net/)
+[![Php Version](https://img.shields.io/badge/php-%3E=8.0-brightgreen.svg?maxAge=2592000)](https://secure.php.net/)
 [![Swoole Version](https://img.shields.io/badge/swoole-%3E=4.3.3-brightgreen.svg?maxAge=2592000)](https://github.com/swoole/swoole-src)
 [![Swoft Doc](https://img.shields.io/badge/docs-passing-green.svg?maxAge=2592000)](https://www.swoft.org)
 [![Swoft License](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](https://github.com/swoft-cloud/swoft/blob/master/LICENSE)
@@ -16,6 +16,10 @@
 ![start-http-server](https://raw.githubusercontent.com/swoft-cloud/swoft/master/public/image/start-http-server.jpg)
 
 PHP 高性能微服务协程框架
+
+**注意：**
+
+本仓库fork于github swoft库，只测试了swoole4.8.13，php8.2对应版本环境，请慎用于你的生产环境，不负责积极代码维护。如需查看文档请访问原框架文档。
 
 > **[EN README](README.md)**
 
@@ -74,7 +78,7 @@ Swoft 通过长达三年的积累和方向的探索，把 Swoft 打造成 PHP �
 ## Requirement
 
 - [PHP 7.1+](https://github.com/php/php-src/releases)
-- [Swoole 4.3.4+](https://github.com/swoole/swoole-src/releases)
+- [Swoole 4.8.13](https://github.com/swoole/swoole-src/releases)
 - [Composer](https://getcomposer.org/)
 
 ## Install
