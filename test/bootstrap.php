@@ -16,11 +16,11 @@ $vendor  = dirname(__DIR__) . '/vendor';
 /** @var \Composer\Autoload\ClassLoader $loader */
 $loader = require dirname(__DIR__) . '/vendor/autoload.php';
 
-$swoftFwDir = $vendor . '/swoft/framework';
+$swoftFwDir = $vendor . '/swoft-fork/framework';
 
 // in framework developing
-if (file_exists($vendor . '/swoft/component/src/framework')) {
-    $swoftFwDir = $vendor . '/swoft/component/src/framework';
+if (file_exists($vendor . '/swoft-fork/component/src/framework')) {
+    $swoftFwDir = $vendor . '/swoft-fork/component/src/framework';
 }
 
 $loader->addPsr4('AppTest\\Unit\\', $baseDir . '/test/unit/');
